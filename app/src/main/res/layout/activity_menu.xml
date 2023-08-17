@@ -1,0 +1,141 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bluef">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/iconomenu"
+            />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/panelblanco"
+                android:elevation="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="22dp"
+                        android:background="@drawable/foco"/>
+
+                    <Button
+                        android:id="@+id/btnfoco"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:text="Luz Inteligente"
+                        android:textColor="@color/white"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/op"
+                        android:textSize="23dp"
+                        android:gravity="center_horizontal"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/panelblanco"
+                android:elevation="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/enchufe"/>
+
+                    <Button
+                        android:id="@+id/btnsocket"
+                        android:layout_width="270dp"
+                        android:layout_height="wrap_content"
+                        android:text=" Socket Inteligente"
+                        android:textColor="@color/white"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/op"
+                        android:textSize="23dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/panelblanco"
+                android:elevation="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/cerradura"/>
+
+                    <Button
+                        android:id="@+id/btncerradura"
+                        android:layout_width="290dp"
+                        android:layout_height="wrap_content"
+                        android:text="Cerradura Inteligente"
+                        android:textColor="@color/white"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/op"
+                        android:textSize="23dp"
+                        android:gravity="center_horizontal"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
