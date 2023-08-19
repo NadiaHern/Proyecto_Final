@@ -28,10 +28,10 @@ public class luz_inteligente extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
                     imageView.setImageResource(R.drawable.encendido);
-                    estadoTextView.setText("Estado Encendido");
+                    estadoTextView.setText("Estado: Encendido");
                 } else {
                     imageView.setImageResource(R.drawable.apagado);
-                    estadoTextView.setText("Estado Apagado");
+                    estadoTextView.setText("Estado: Apagado");
                 }
             }
         });
